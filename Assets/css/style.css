@@ -340,8 +340,28 @@ img{
 
 
 /* Buttons */
+.button{
+    display: inline-block;
+    background-color: var(--first-color);
+    color: var(--body-color);
+    padding: .75rem 1rem;
+    border-radius: .5rem;
+    font-weight: var(--font-medium);
+    transition: .4s;
+}
+
+.button:hover{
+    background-color: var(--first-color);
+    color: var(--body-color);
+}
+.button--ghost{
+    background-color: transparent;
+    border: 2px solid var(--first-color);
+    color: var(--first-color);
+}
 
 /* About */
+
 
 /* Skills */
 
@@ -350,3 +370,33 @@ img{
 /* Services Modal */
 
 /* Active Modal */
+
+/*=============== WORK ===============*/
+
+
+/* Active item work*/
+
+
+/*=============== TESTIMONIAL ===============*/
+
+
+/* Swiper class */
+
+
+/*=============== CONTACT ===============*/
+
+
+/*=============== FOOTER ===============*/
+
+
+/*=============== SCROLL BAR ===============*/
+
+
+/*=============== BREAKPOINTS ===============*/
+/* For small devices */
+
+
+/* For medium devices */
+
+
+/* For large devices */
